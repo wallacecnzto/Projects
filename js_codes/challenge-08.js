@@ -46,15 +46,13 @@ function calculator( operator ) {
 }
 
 var sum = calculator( '+' );
-
-console.log( sum( 10, 10 ) );
-
 var subtraction = calculator( '-' );
 var multiplication = calculator( '*' );
 var division = calculator( '/' );
 var mod = calculator( '%' );
 var invalid = calculator( 'x' );
 
+console.log( sum( 10, 10 ) );
 console.log( subtraction( 10, 5 ) );
 console.log( multiplication( 3, 3 ) );
 console.log( division( 5, 5 ) );
