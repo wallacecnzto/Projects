@@ -81,10 +81,10 @@
     var $formCEP = new DOM('[data-js="form-cep"]');
     var $inputCEP = new DOM('[data-js="input-cep"]');
     var ajax = new XMLHttpRequest();
-    $formCEP.on('submit', handleSubmitFormCep);
+    $formCEP.on('submit', handleSubmitFormCEP);
 
 
-    function handleSubmitFormCep(event) {
+    function handleSubmitFormCEP(event) {
         event.preventDefault();
         console.log($inputCEP.get()[0].value);
         var url = 'http://cep.correiocontrol.com.br/[CEP].json'.replace(
