@@ -3,6 +3,7 @@ class GuessNumber
   attr_reader :win
 
   def initialize
+    Initializing.initializing
     @number = Random.rand(1..10)
     @win = false
   end
@@ -19,10 +20,4 @@ class GuessNumber
   end
 end
 
-game = GuessNumber.new
 
-until game.win do
-  puts "Type a number: "
-  number = gets.to_i
-  puts game.try_guess(number)
-end
