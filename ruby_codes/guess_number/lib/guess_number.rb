@@ -1,3 +1,4 @@
+# Class man
 class GuessNumber
   attr_reader :number
   attr_reader :win
@@ -11,13 +12,11 @@ class GuessNumber
   def try_guess(number = 0)
     if number == @number
       @win = true
-      return "You win!"
+      'You win!'
     elsif number > @number
-      return "The typing number is very high!"
+      'The typing number is very high!'
     else
-      return "The typing number is very low!"
+      'The typing number is very low!'
     end
   end
 end
-
-
