@@ -1,5 +1,5 @@
 (function(win, document) {
-    'use strict';
+  'use strict';
 
     function DOM(elements) {
         if(!(this instanceof DOM))
