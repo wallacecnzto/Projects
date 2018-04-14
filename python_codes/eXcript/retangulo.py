@@ -18,6 +18,5 @@ class Retangulo:
     def get_area(self):
         return self._altura * self._largura
 
-
 # r = Retangulo(largura=10, altura=5)
 # print(r.get_area())
