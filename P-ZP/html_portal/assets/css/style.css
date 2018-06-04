@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+}/*Procedimento padrão para tirar a margin padrão do navegador*/
+.topo {
+	height: 30px;
+	background-color: #333;
+}
+.topoint {
+	width: 100%;
+	max-width: 1040px;
+	height: 30px;
+	background-color: green;
+	margin: auto;
+}
