@@ -69,3 +69,8 @@ body {
 	height: 95px;
 	margin: auto;
 }
+.logo {
+  width: 230px;
+  height: 95px;
+  float: left;
+}
