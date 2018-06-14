@@ -303,3 +303,29 @@ body {
   width: 384px;
   font-size: 30px;
 }
+@media only screen and (max-widht:1057px) {
+  .topoint,
+  .topo2int,
+  .menuint,
+  .ultimasnoticiasint,
+  .containerint {
+    max-width: 890px;
+  }
+
+  .leftside {
+    width: 600px;
+  }
+  .noticiaarea1 {
+    width: 278px;
+  }
+  .noticiabig .noticiaimg {
+    width: 245px;
+  }
+  .noticiabig .noticiaimg img {
+    width: 245px;
+  }
+  .noticiabig .noticiatitulo {
+    width: 245px;
+    font-size: 25px;
+  }
+}
