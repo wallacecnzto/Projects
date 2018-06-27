@@ -303,6 +303,9 @@ body {
   width: 384px;
   font-size: 30px;
 }
+.menumobile {
+  display: none;
+}
 @media only screen and (min-width:906px) and (max-widht:1057px) {
   .topoint,
   .topo2int,
@@ -311,7 +314,9 @@ body {
   .containerint {
     max-width: 890px;
   }
-
+  #menu {
+    display: block !important;
+  }
   .leftside {
     width: 600px;
   }
@@ -339,6 +344,9 @@ body {
   }
   .topo2 .banner {
     display: none;
+  }
+  #menu {
+    display: block !important;
   }
   .logo {
     float: none;
@@ -378,6 +386,9 @@ body {
   .topoleft {
     display: none;
   }
+  .toporight {
+    width: 100%
+  }
   .topo2 .banner {
     display: none;
   }
@@ -385,24 +396,65 @@ body {
     float: none;
     margin: auto;
   }
+  .menuint {
+  }
+  .menumobile {
+    display: block;
+  }
+  .menu ul {
+    position: absolute;
+    background-color: red;
+    z-index: 10;
+    display: none;
+  }
+  .menu li {
+    float: none;
+    height: auto;
+  }
+  .menu li img {
+    display: none;
+    position: static;
+    display: block;
+  }
+  .ultimasnoticias {
+    display: none;
+  }
   .rightside {
     display: none;
   }
   .leftside {
     float: none;
     width: auto;
+    margin-top: 10px;
   }
   .noticiaarea1 {
-    width: 446px;
+    width: 320px;
+    height: auto;
   }
   .noticiabig .noticiaimg {
-    width: 415px;
+    width: 290px;
   }
   .noticiabig .noticiaimg img {
-    width: 415px;
+    width: 290px;
   }
   .noticiabig .noticiatitulo {
-    width: 415px;
+    width: 290px;
     font-size: 25px;
+  }
+  .noticiaarea2 {
+    width: 300px;
+    margin: auto;
+    float: none;
+    clear: both;
+    padding-top: 20px;
+  }
+  .noticiaitem {
+    clear: both;
+  }
+  .noticiatitulo {
+    width: 206px;
+  }
+  .noticiainfo {
+    width: 206px;
   }
 }
