@@ -8,7 +8,7 @@ class Pessoa {
     function __construct($nome, $idade) {
         $this->nome = $nome;
         $this->idade = $idade;
-        echo 'Pessoa criada! <br>'; 
+        echo 'Pessoa criada! <br>';
     }
 
     function __destruct(){
@@ -21,7 +21,7 @@ class Pessoa {
 }
 
 class Usuario extends Pessoa {
-    
+
     public $login;
 
     function __construct($nome, $idade, $login) {
@@ -31,7 +31,7 @@ class Usuario extends Pessoa {
         echo 'Usuário logado!';
     }
 
-    function __destruct() { 
+    function __destruct() {
         echo 'Usuário diz TCHAU!';
     }
 
@@ -44,3 +44,4 @@ class Usuario extends Pessoa {
 
 $usuario = new Usuario('Wallace', 42, 'cnzto');
 $usuario->apresentar();
+
